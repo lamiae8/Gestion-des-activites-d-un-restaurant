@@ -51,5 +51,11 @@ namespace RestaurantManagementSystem
             this.Hide();
             this.Parent.Controls.Add(new TableACommanderControlForm());
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this.Parent.Controls.Add(new TableACommanderControlForm(true));
+        }
     }
 }

@@ -28,9 +28,7 @@ namespace RestaurantManagementSystem
         {
             InitializeComponent();
             table_number = table_num;
-            //commande_tables.Columns.Add("Num Cmd");
-            //commande_tables.Columns.Add("Date Enr");
-            //commande_tables.Columns.Add("Nbre Personne");
+
             commande_tables.Columns.Add("Plats");
             commande_tables.Columns.Add("Qtte");
             commande_tables.Columns.Add("Prix");
@@ -130,6 +128,7 @@ namespace RestaurantManagementSystem
 
         if(commande != null) //si table a une commande pour afficher sur datatable
         {
+
                 nbre_personne.Value = commande.nombre_personne;
                 nbre_personne.ReadOnly = true;
                 label6.Text = "Commande N " + commande.num_commande;
