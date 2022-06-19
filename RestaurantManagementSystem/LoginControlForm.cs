@@ -15,6 +15,7 @@ namespace RestaurantManagementSystem
         public LoginControlForm()
         {
             InitializeComponent();
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -24,8 +25,15 @@ namespace RestaurantManagementSystem
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            this.Parent.Controls.Add(new TasksDashboardControlForm());
+            if(loginBox.Text=="limy" && passwordBox.Text == "limy")
+            {
+                this.Hide();
+                this.Parent.Controls.Add(new TasksDashboardControlForm());
+            }
+            else
+            {
+                MessageBox.Show("Wrong Credentials");
+            }
         }
 
     }
