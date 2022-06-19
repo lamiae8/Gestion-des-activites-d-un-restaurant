@@ -277,32 +277,24 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\affecter.png" />
-    <Content Include="images\affecter_serveur_table.png" />
-    <Content Include="images\Commande.png" />
-    <Content Include="images\CommandeButton.png" />
-    <Content Include="images\commander.png" />
-    <Content Include="images\Commander_bg.png" />
-    <Content Include="images\CrudPlat.png" />
-    <Content Include="images\CrudPlats.png" />
-    <Content Include="images\CrudServeur.png" />
-    <Content Include="images\CrudServeurs.png" />
-    <Content Include="images\Dashboard.png" />
-    <Content Include="images\delete.png" />
-    <Content Include="images\edit.png" />
-    <Content Include="images\factures.png" />
-    <Content Include="images\hamburger.png" />
-    <Content Include="images\home.png" />
-    <Content Include="images\login.png" />
-    <Content Include="images\pay.png" />
-    <Content Include="images\PlatsButton.png" />
-    <Content Include="images\PlatsButtonCrud.png" />
-    <Content Include="images\plus.png" />
-    <Content Include="images\table.png" />
-    <Content Include="images\TableButton.png" />
-    <Content Include="images\TableCrud.png" />
-    <Content Include="images\TABLE_A_COMMANDER.png" />
-    <Content Include="images\updated.png" />
+    <Content Include="ImageLimy\add.png" />
+    <Content Include="ImageLimy\affecterbg.png" />
+    <Content Include="ImageLimy\apple-pay.png" />
+    <Content Include="ImageLimy\back.png" />
+    <Content Include="ImageLimy\delete %281%29.png" />
+    <Content Include="ImageLimy\Limy Restaurant %281%29.png" />
+    <Content Include="ImageLimy\Limy Restaurant %282%29.png" />
+    <Content Include="ImageLimy\Limy Restaurant %284%29.png" />
+    <Content Include="ImageLimy\Limy Restaurant.png" />
+    <Content Include="ImageLimy\login.png" />
+    <Content Include="ImageLimy\money.png" />
+    <Content Include="ImageLimy\plat.png" />
+    <Content Include="ImageLimy\refresh.png" />
+    <Content Include="ImageLimy\serveurBG %282%29.png" />
+    <Content Include="ImageLimy\serveurBG.png" />
+    <Content Include="ImageLimy\tableau de bord.png" />
+    <Content Include="ImageLimy\tablebg.png" />
+    <Content Include="ImageLimy\ttableBG.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />

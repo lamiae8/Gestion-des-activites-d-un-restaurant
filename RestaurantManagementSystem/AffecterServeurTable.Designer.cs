@@ -33,15 +33,14 @@ namespace RestaurantManagementSystem
             this.panel1 = new System.Windows.Forms.Panel();
             this.affecter_button = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.serveur_combo_box = new System.Windows.Forms.ComboBox();
             this.tables_combo_box = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -49,12 +48,11 @@ namespace RestaurantManagementSystem
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.affecter_button);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.dataGridView2);
             this.panel1.Controls.Add(this.dateTimePicker1);
-            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.serveur_combo_box);
@@ -68,22 +66,22 @@ namespace RestaurantManagementSystem
             // 
             // affecter_button
             // 
-            this.affecter_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(235)))), ((int)(((byte)(227)))));
+            this.affecter_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(241)))), ((int)(((byte)(239)))));
             this.affecter_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("affecter_button.BackgroundImage")));
             this.affecter_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.affecter_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.affecter_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.affecter_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.affecter_button.Location = new System.Drawing.Point(25, 429);
+            this.affecter_button.Location = new System.Drawing.Point(284, 293);
             this.affecter_button.Name = "affecter_button";
-            this.affecter_button.Size = new System.Drawing.Size(74, 53);
+            this.affecter_button.Size = new System.Drawing.Size(37, 35);
             this.affecter_button.TabIndex = 26;
             this.affecter_button.UseVisualStyleBackColor = false;
             this.affecter_button.Click += new System.EventHandler(this.affecter_button_click);
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(241)))), ((int)(((byte)(239)))));
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -94,25 +92,12 @@ namespace RestaurantManagementSystem
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(-3, 46);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 17);
-            this.label4.TabIndex = 24;
-            this.label4.Text = "Back Home";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
             // dataGridView2
             // 
-            this.dataGridView2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(241)))), ((int)(((byte)(239)))));
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(416, 83);
+            this.dataGridView2.Location = new System.Drawing.Point(427, 54);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(394, 380);
             this.dataGridView2.TabIndex = 23;
@@ -122,45 +107,34 @@ namespace RestaurantManagementSystem
             // dateTimePicker1
             // 
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(25, 384);
+            this.dateTimePicker1.Location = new System.Drawing.Point(16, 439);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(240, 20);
             this.dateTimePicker1.TabIndex = 22;
+            this.dateTimePicker1.Visible = false;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.s);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(235)))), ((int)(((byte)(227)))));
-            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(19, 336);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(246, 31);
-            this.label3.TabIndex = 21;
-            this.label3.Text = "Date D\'affectation :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(235)))), ((int)(((byte)(227)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(241)))), ((int)(((byte)(239)))));
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(19, 224);
+            this.label1.Font = new System.Drawing.Font("Segoe Script", 18F);
+            this.label1.Location = new System.Drawing.Point(56, 137);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 31);
+            this.label1.Size = new System.Drawing.Size(101, 38);
             this.label1.TabIndex = 20;
             this.label1.Text = "Table :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(235)))), ((int)(((byte)(227)))));
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(241)))), ((int)(((byte)(239)))));
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(19, 105);
+            this.label2.Font = new System.Drawing.Font("Segoe Script", 18F);
+            this.label2.Location = new System.Drawing.Point(56, 255);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(124, 31);
+            this.label2.Size = new System.Drawing.Size(135, 38);
             this.label2.TabIndex = 19;
             this.label2.Text = "Serveur :";
             // 
@@ -170,9 +144,9 @@ namespace RestaurantManagementSystem
             this.serveur_combo_box.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(75)))), ((int)(((byte)(47)))));
             this.serveur_combo_box.FormattingEnabled = true;
             this.serveur_combo_box.ItemHeight = 20;
-            this.serveur_combo_box.Location = new System.Drawing.Point(25, 156);
+            this.serveur_combo_box.Location = new System.Drawing.Point(63, 298);
             this.serveur_combo_box.Name = "serveur_combo_box";
-            this.serveur_combo_box.Size = new System.Drawing.Size(258, 28);
+            this.serveur_combo_box.Size = new System.Drawing.Size(207, 28);
             this.serveur_combo_box.TabIndex = 2;
             this.serveur_combo_box.SelectedIndexChanged += new System.EventHandler(this.serveur_combo_box_SelectedIndexChanged);
             // 
@@ -181,7 +155,7 @@ namespace RestaurantManagementSystem
             this.tables_combo_box.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tables_combo_box.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(75)))), ((int)(((byte)(47)))));
             this.tables_combo_box.FormattingEnabled = true;
-            this.tables_combo_box.Location = new System.Drawing.Point(25, 267);
+            this.tables_combo_box.Location = new System.Drawing.Point(63, 178);
             this.tables_combo_box.Name = "tables_combo_box";
             this.tables_combo_box.Size = new System.Drawing.Size(258, 28);
             this.tables_combo_box.TabIndex = 1;
@@ -198,6 +172,18 @@ namespace RestaurantManagementSystem
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label4.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(342, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(158, 38);
+            this.label4.TabIndex = 30;
+            this.label4.Text = "AFFECTER";
             // 
             // AffecterServeurTable
             // 
@@ -222,11 +208,10 @@ namespace RestaurantManagementSystem
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button affecter_button;
+        private System.Windows.Forms.Label label4;
     }
 }

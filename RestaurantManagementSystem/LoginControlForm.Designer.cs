@@ -35,12 +35,16 @@ namespace RestaurantManagementSystem
             this.passwordBox = new System.Windows.Forms.TextBox();
             this.loginBox = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.loginButton);
             this.panel1.Controls.Add(this.passwordBox);
             this.panel1.Controls.Add(this.loginBox);
@@ -53,12 +57,12 @@ namespace RestaurantManagementSystem
             // 
             // loginButton
             // 
-            this.loginButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.loginButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(126)))), ((int)(((byte)(217)))), ((int)(((byte)(84)))));
             this.loginButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.loginButton.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginButton.Font = new System.Drawing.Font("Microsoft JhengHei UI Light", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginButton.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.loginButton.Location = new System.Drawing.Point(472, 358);
+            this.loginButton.Location = new System.Drawing.Point(115, 367);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(300, 35);
             this.loginButton.TabIndex = 4;
@@ -69,7 +73,7 @@ namespace RestaurantManagementSystem
             // passwordBox
             // 
             this.passwordBox.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passwordBox.Location = new System.Drawing.Point(472, 232);
+            this.passwordBox.Location = new System.Drawing.Point(115, 246);
             this.passwordBox.Name = "passwordBox";
             this.passwordBox.PasswordChar = '*';
             this.passwordBox.Size = new System.Drawing.Size(300, 46);
@@ -79,7 +83,7 @@ namespace RestaurantManagementSystem
             // 
             this.loginBox.AccessibleName = "";
             this.loginBox.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginBox.Location = new System.Drawing.Point(472, 151);
+            this.loginBox.Location = new System.Drawing.Point(115, 175);
             this.loginBox.Name = "loginBox";
             this.loginBox.Size = new System.Drawing.Size(300, 46);
             this.loginBox.TabIndex = 1;
@@ -96,6 +100,28 @@ namespace RestaurantManagementSystem
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(122, 161);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(95, 20);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Username : ";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(122, 234);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(90, 20);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Password : ";
             // 
             // LoginControlForm
             // 
@@ -118,5 +144,7 @@ namespace RestaurantManagementSystem
         private System.Windows.Forms.Button loginButton;
         private System.Windows.Forms.TextBox passwordBox;
         private System.Windows.Forms.TextBox loginBox;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
     }
 }

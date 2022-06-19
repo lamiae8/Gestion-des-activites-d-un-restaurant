@@ -35,15 +35,15 @@ namespace RestaurantManagementSystem
             this.update_serveur_button = new System.Windows.Forms.Button();
             this.prenom_serveur_textbox = new System.Windows.Forms.TextBox();
             this.nom_serveur_textbox = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.num_serveur_textbox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.delete_serveur_button = new System.Windows.Forms.Button();
             this.add_serveur_button = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -51,18 +51,18 @@ namespace RestaurantManagementSystem
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.dataGridView2);
             this.panel1.Controls.Add(this.update_serveur_button);
             this.panel1.Controls.Add(this.prenom_serveur_textbox);
             this.panel1.Controls.Add(this.nom_serveur_textbox);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.num_serveur_textbox);
-            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.delete_serveur_button);
             this.panel1.Controls.Add(this.add_serveur_button);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -72,23 +72,23 @@ namespace RestaurantManagementSystem
             // 
             // dataGridView2
             // 
-            this.dataGridView2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(240)))), ((int)(((byte)(196)))));
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(429, 82);
+            this.dataGridView2.Location = new System.Drawing.Point(460, 62);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(374, 381);
+            this.dataGridView2.Size = new System.Drawing.Size(323, 381);
             this.dataGridView2.TabIndex = 25;
             this.dataGridView2.SelectionChanged += new System.EventHandler(this.dataGridView2_SelectionChanged);
             // 
             // update_serveur_button
             // 
-            this.update_serveur_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(235)))), ((int)(((byte)(227)))));
+            this.update_serveur_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(240)))), ((int)(((byte)(196)))));
             this.update_serveur_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("update_serveur_button.BackgroundImage")));
             this.update_serveur_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.update_serveur_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.update_serveur_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.update_serveur_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.update_serveur_button.Location = new System.Drawing.Point(138, 410);
+            this.update_serveur_button.Location = new System.Drawing.Point(141, 390);
             this.update_serveur_button.Name = "update_serveur_button";
             this.update_serveur_button.Size = new System.Drawing.Size(74, 53);
             this.update_serveur_button.TabIndex = 24;
@@ -98,7 +98,7 @@ namespace RestaurantManagementSystem
             // prenom_serveur_textbox
             // 
             this.prenom_serveur_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prenom_serveur_textbox.Location = new System.Drawing.Point(14, 331);
+            this.prenom_serveur_textbox.Location = new System.Drawing.Point(7, 320);
             this.prenom_serveur_textbox.Name = "prenom_serveur_textbox";
             this.prenom_serveur_textbox.Size = new System.Drawing.Size(331, 32);
             this.prenom_serveur_textbox.TabIndex = 23;
@@ -106,64 +106,28 @@ namespace RestaurantManagementSystem
             // nom_serveur_textbox
             // 
             this.nom_serveur_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nom_serveur_textbox.Location = new System.Drawing.Point(14, 241);
+            this.nom_serveur_textbox.Location = new System.Drawing.Point(7, 227);
             this.nom_serveur_textbox.Name = "nom_serveur_textbox";
             this.nom_serveur_textbox.Size = new System.Drawing.Size(331, 32);
             this.nom_serveur_textbox.TabIndex = 22;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(235)))), ((int)(((byte)(227)))));
-            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(8, 297);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 31);
-            this.label4.TabIndex = 21;
-            this.label4.Text = "Prenom :";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(235)))), ((int)(((byte)(227)))));
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(8, 207);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 31);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "Nom :";
-            // 
             // num_serveur_textbox
             // 
             this.num_serveur_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num_serveur_textbox.Location = new System.Drawing.Point(14, 144);
+            this.num_serveur_textbox.Location = new System.Drawing.Point(7, 125);
             this.num_serveur_textbox.Name = "num_serveur_textbox";
             this.num_serveur_textbox.Size = new System.Drawing.Size(331, 32);
             this.num_serveur_textbox.TabIndex = 19;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(235)))), ((int)(((byte)(227)))));
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(8, 94);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(264, 31);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "Numero de Serveur :";
-            // 
             // delete_serveur_button
             // 
-            this.delete_serveur_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(235)))), ((int)(((byte)(227)))));
+            this.delete_serveur_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(240)))), ((int)(((byte)(196)))));
             this.delete_serveur_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("delete_serveur_button.BackgroundImage")));
             this.delete_serveur_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.delete_serveur_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.delete_serveur_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.delete_serveur_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.delete_serveur_button.Location = new System.Drawing.Point(263, 410);
+            this.delete_serveur_button.Location = new System.Drawing.Point(256, 390);
             this.delete_serveur_button.Name = "delete_serveur_button";
             this.delete_serveur_button.Size = new System.Drawing.Size(82, 53);
             this.delete_serveur_button.TabIndex = 17;
@@ -172,13 +136,13 @@ namespace RestaurantManagementSystem
             // 
             // add_serveur_button
             // 
-            this.add_serveur_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(235)))), ((int)(((byte)(227)))));
+            this.add_serveur_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(240)))), ((int)(((byte)(196)))));
             this.add_serveur_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("add_serveur_button.BackgroundImage")));
             this.add_serveur_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.add_serveur_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.add_serveur_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.add_serveur_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.add_serveur_button.Location = new System.Drawing.Point(11, 410);
+            this.add_serveur_button.Location = new System.Drawing.Point(14, 390);
             this.add_serveur_button.Name = "add_serveur_button";
             this.add_serveur_button.Size = new System.Drawing.Size(74, 53);
             this.add_serveur_button.TabIndex = 16;
@@ -187,7 +151,7 @@ namespace RestaurantManagementSystem
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(240)))), ((int)(((byte)(196)))));
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -195,20 +159,9 @@ namespace RestaurantManagementSystem
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(56, 43);
             this.button1.TabIndex = 15;
+            this.button1.TabStop = false;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(244)))));
-            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(8, 49);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 17);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Back Home";
             // 
             // pictureBox1
             // 
@@ -221,6 +174,54 @@ namespace RestaurantManagementSystem
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(240)))), ((int)(((byte)(196)))));
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label5.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(8, 84);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(207, 38);
+            this.label5.TabIndex = 26;
+            this.label5.Text = "Code Serveur :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(240)))), ((int)(((byte)(196)))));
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label2.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(7, 186);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(206, 38);
+            this.label2.TabIndex = 27;
+            this.label2.Text = "Nom Serveur :";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(240)))), ((int)(((byte)(196)))));
+            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label6.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(8, 279);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(247, 38);
+            this.label6.TabIndex = 28;
+            this.label6.Text = "Prenom Serveur :";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label1.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(356, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(159, 38);
+            this.label1.TabIndex = 29;
+            this.label1.Text = "SERVEURS";
             // 
             // ServeurCrudControlForm
             // 
@@ -242,16 +243,16 @@ namespace RestaurantManagementSystem
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox prenom_serveur_textbox;
         private System.Windows.Forms.TextBox nom_serveur_textbox;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox num_serveur_textbox;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button delete_serveur_button;
         private System.Windows.Forms.Button add_serveur_button;
         private System.Windows.Forms.Button update_serveur_button;
         private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label1;
     }
 }
